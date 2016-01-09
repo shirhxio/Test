@@ -3,4 +3,3 @@ practice github
 
 # member
 * shirhxio
-* hiroshi
