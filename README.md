@@ -13,3 +13,17 @@ practice github and test Unity
   * RaycastHit2Dではx,y軸上の距離は出来るが、z軸に関しては無限遠まで飛んでいる模様？
   * 今回はtagが"test"のものをDestroyする形にしたので、
         手前に他のtagのものがあったりするとそちらにヒットするためlayerなどを上手に使うべき
+
+2. TestInstantiate(Instantiateの使い勝手の確認)
+  * Instantiateの返り値をキャスト(Rigidbody)したり、as <scriptCompornent>つけたりすることでコンポーネントを受け取れる。
+  * ただし、参照しておくプレハブの型などに注意。例えば、Rigidbodyとして返り値を受け取りたいなら、プレハブもRigidbodyで参照しておく必要がある。
+
+3. AnimationTest
+  * AnimationClipでtransformのrotateやらposition、Spriteのcolorをいじっている。
+  * 前のタイミングからの相対的に移動させるのはできないのだろうか。
+
+4. LightTest(Lightの使い勝手の確認中)
+  * Lightによる演出の仕方の確認中
+
+5. RollABall(はじめてのUnity)
+  * Unityの公式サイトにある新しい方の「はじめてのUnity」
