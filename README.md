@@ -22,8 +22,12 @@ practice github and test Unity
   * AnimationClipでtransformのrotateやらposition、Spriteのcolorをいじっている。
   * 前のタイミングからの相対的に移動させるのはできないのだろうか。
 
-4. LightTest(Lightの使い勝手の確認中)
+4. CollisionTest(OnCollisionとかの確認)
+  * OnCollisionEnter()とかで他のOntriggerEnter()を引き起こしても、呼び出されるのは次のフレーム（ここあたりの呼び出し順は注意が必要かな？）
+  * OnCollisionEnter()とかで他のOnTriggerEnter()とか引き起こされてても、呼び出される次のフレームまでに解消してあれば呼び出されない。（当たり前か…）
+
+5. LightTest(Lightの使い勝手の確認中)
   * Lightによる演出の仕方の確認中
 
-5. RollABall(はじめてのUnity)
+a. RollABall(はじめてのUnity)
   * Unityの公式サイトにある新しい方の「はじめてのUnity」
